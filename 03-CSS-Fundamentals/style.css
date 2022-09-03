@@ -1,0 +1,100 @@
+/* All elements */
+* {
+  border: 1px solid blue;
+}
+
+/*inherited*/
+body {
+  font-family: sans-serif;
+  color: #444;
+  font-size: 25px;
+
+  border: 10px solid red;
+}
+
+h1 {
+  color: blue;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: serif-sans;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20 px;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/* article header p {
+  font-style: italic;
+} */
+
+#auth {
+  font-style: italic;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+/* pseudo classes */
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  text-transform: uppercase;
+}
+
+/* even odd */
+li:nth-child(even) {
+  background-color: rgba(0, 255, 255, 0.05);
+}
+
+/* styling links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orange;
+  /* text-decoration: underline solid orange; */
+  /* text-decoration: underline orange; */
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: black;
+}
+/* LVHA Use -> 1:link 2:visited 3:hover 4:active  */
